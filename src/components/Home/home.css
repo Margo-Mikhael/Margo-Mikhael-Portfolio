@@ -1,8 +1,17 @@
+/* Ensure all elements use border-box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .home__container {
   row-gap: 7rem;
+  overflow: hidden; /* Prevent overflow */
 }
 
 .home__content {
+  display: grid;
   grid-template-columns: 116px repeat(2, 1fr);
   padding-top: 5.5rem;
   column-gap: 2rem;
@@ -70,10 +79,8 @@
   width: 300px;
   height: 300px;
   animation: profile__animate 8s ease-in-out infinite 1s;
-  /* margin-inline: 1rem; */
 }
 
-/* Added */
 .home__title-container {
   display: flex;
   align-items: center;
@@ -82,26 +89,20 @@
 
 .home__title {
   margin-right: 0.5rem;
-  font-size: var(
-    --big-font-size
-  ); /* Adjust the spacing between the title and the image as needed */
+  font-size: var(--big-font-size);
 }
 
 .home__hand {
   width: 48px;
   height: 48px;
-  /* flex-shrink: 0; */
 }
 
 .send__icon,
 #svg-icon {
   padding-left: 0.5rem;
   height: 1.5rem;
-  /* fill: white; */
   filter: invert(100%);
 }
-
-/* Scroll Down styles  */
 
 .scroll-icon {
   color: var(--title-color);
@@ -111,8 +112,6 @@
 .button {
   transition: 0.3s;
 }
-
-/*  */
 
 @keyframes profile__animate {
   0% {

@@ -19,10 +19,10 @@ export const projectsdata = [
     title: "E-Commerce Website",
     category: "React.js",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore maiores illum natus illo voluptatem perspiciatis aperiam eligendi odio dolorum.",
-    demo: "https://github.com/Margo-Mikhael",
-    code: "https://github.com/Margo-Mikhael",
-    hashtags: ["Tailwind", "CSS"],
+      "A dynamic e-commerce platform built with React.js, featuring product listings, a shopping cart, and user authentication, styled with Tailwind  .",
+    demo: "https://github.com/Margo-Mikhael/ecommerce-freshcart",
+    code: "https://github.com/Margo-Mikhael/ecommerce-freshcart",
+    hashtags: ["React", "Axios", "Tailwind"],
   },
   {
     id: 2,
@@ -30,8 +30,8 @@ export const projectsdata = [
     title: "Blog post",
     category: "Fullstack",
     description:
-      "A blog application built using Node.js, Express, EJS, and MongoDB with full CRUD functionality. Users can view all blog posts, while an admin dashboard provides the ability to create, edit, and delete posts.",
-    demo: "https://github.com/Margo-Mikhael",
+      "A full-stack blog app built with Node.js, Express, EJS, and MongoDB, offering full CRUD functionality and an admin dashboard for managing posts.",
+    demo: "https://github.com/Margo-Mikhael/NodeJs-BlogApp",
     code: "https://github.com/Margo-Mikhael/NodeJs-BlogApp",
     hashtags: ["Node.js", "Express", "MongoDB"],
   },
@@ -41,21 +41,32 @@ export const projectsdata = [
     title: "Portfolio",
     category: "React.js",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore maiores illum natus illo voluptatem perspiciatis aperiam eligendi odio dolorum.",
-    demo: "https://github.com/Margo-Mikhael",
-    code: "https://github.com/Margo-Mikhael",
+      "A responsive portfolio website built with React.js, showcasing projects, skills, and contact info with a clean, interactive design.",
+    demo: "https://github.com/Margo-Mikhael/Margo-Mikhael-Portfolio",
+    code: "https://github.com/Margo-Mikhael/Margo-Mikhael-Portfolio",
     hashtags: ["React", "CSS"],
   },
   {
-    id: 1,
-    image: Project1,
-    title: "Bakery Shop",
+    id: 8,
+    image: Project8,
+    title: "Mealify - Restaurant Website",
     category: "HTML & CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore maiores illum natus illo voluptatem perspiciatis aperiam eligendi odio dolorum.",
-    demo: "https://margo-mikhael.github.io/Bakery/",
-    code: "https://github.com/Margo-Mikhael/Bakery",
+      "A restaurant website for 'Mealify', built with HTML and CSS, showcasing a menu, about section, and contact info in a sleek layout.",
+    demo: "https://margo-mikhael.github.io/Mealify/",
+    code: "https://github.com/Margo-Mikhael/Mealify",
     hashtags: ["HTML", "CSS"],
+  },
+  {
+    id: 12,
+    image: Project12,
+    title: "Weather App",
+    category: "vanilla js",
+    description:
+      "A weather app built with vanilla JavaScript, using the OpenWeather API to display real-time weather data for user-selected locations.",
+    demo: "https://margo-mikhael.github.io/Weather-Application/",
+    code: "https://github.com/Margo-Mikhael/Weather-Application",
+    hashtags: ["JavaScript", "API"],
   },
   {
     id: 3,
@@ -63,7 +74,7 @@ export const projectsdata = [
     title: "Website Bookmarker",
     category: "vanilla js",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore maiores illum natus illo voluptatem perspiciatis aperiam eligendi odio dolorum.",
+      "A bookmark manager app built with vanilla JavaScript, allowing users to save, edit, and delete website links with local storage.",
     demo: "https://margo-mikhael.github.io/website-bookmarker/",
     code: "https://github.com/Margo-Mikhael/website-bookmarker",
     hashtags: ["JavaScript"],
@@ -74,7 +85,7 @@ export const projectsdata = [
     title: "Dice game",
     category: "vanilla js",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore maiores illum natus illo voluptatem perspiciatis aperiam eligendi odio dolorum.",
+      "A fun dice-rolling game built with vanilla JavaScript, featuring random rolls and basic scoring for two players.",
     demo: "https://margo-mikhael.github.io/new-dice-game/",
     code: "https://github.com/Margo-Mikhael/new-dice-game",
     hashtags: ["JavaScript"],
@@ -85,7 +96,7 @@ export const projectsdata = [
     title: "Drum Kit tool",
     category: "vanilla js",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore maiores illum natus illo voluptatem perspiciatis aperiam eligendi odio dolorum.",
+      "An interactive drum kit app built with vanilla JavaScript, where users can play drum sounds via clicks or keyboard presses.",
     demo: "https://margo-mikhael.github.io/Drum-kit-game/",
     code: "https://github.com/Margo-Mikhael/Drum-kit-game",
     hashtags: ["JavaScript"],
@@ -96,20 +107,20 @@ export const projectsdata = [
     title: "Fokir - Portfolio",
     category: "HTML & CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore maiores illum natus illo voluptatem perspiciatis aperiam eligendi odio dolorum.",
+      "A static portfolio website named 'Fokir', built with HTML and CSS to display projects and skills in a clean, minimal design.",
     demo: "https://margo-mikhael.github.io/fokir/",
     code: "https://github.com/Margo-Mikhael/fokir",
     hashtags: ["HTML", "CSS"],
   },
   {
-    id: 8,
-    image: Project8,
-    title: "Mealify - Restaurant Website",
+    id: 1,
+    image: Project1,
+    title: "Bakery Shop",
     category: "HTML & CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore maiores illum natus illo voluptatem perspiciatis aperiam eligendi odio dolorum.",
-    demo: "https://margo-mikhael.github.io/Mealify/",
-    code: "https://github.com/Margo-Mikhael/Mealify",
+      "A static bakery shop website featuring product displays and contact details, built with HTML and CSS for a simple, clean layout.",
+    demo: "https://margo-mikhael.github.io/Bakery/",
+    code: "https://github.com/Margo-Mikhael/Bakery",
     hashtags: ["HTML", "CSS"],
   },
   {
@@ -118,7 +129,7 @@ export const projectsdata = [
     title: "Movie Quote Generator",
     category: "vanilla js",
     description:
-      "A simple app that displays random iconic movie quotes with every click.",
+      "A simple app built with vanilla JavaScript that generates random iconic movie quotes with each click.",
     demo: "https://margo-mikhael.github.io/movie-quote-generator/",
     code: "https://github.com/Margo-Mikhael/movie-quote-generator",
     hashtags: ["JavaScript"],
@@ -129,7 +140,7 @@ export const projectsdata = [
     title: "Basic Portfolio",
     category: "React.js",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore maiores illum natus illo voluptatem perspiciatis aperiam eligendi odio dolorum.",
+      "A basic portfolio website built with React.js, featuring a responsive layout to display projects and personal details.",
     demo: "https://margo-mikhael.github.io/first-react-app/",
     code: "https://github.com/Margo-Mikhael/first-react-app",
     hashtags: ["React", "CSS"],
@@ -139,20 +150,11 @@ export const projectsdata = [
     image: Project11,
     title: "Tindog",
     category: "HTML & CSS",
-    description: "Tinder for dogs, a fun project to apply on Bootstrap",
+    description:
+      "A playful 'Tinder for dogs' website built with HTML, CSS, and Bootstrap to practice responsive design and UI components.",
     demo: "https://margo-mikhael.github.io/Tindog/",
     code: "https://github.com/Margo-Mikhael/Tindog",
     hashtags: ["Bootstrap"],
-  },
-  {
-    id: 12,
-    image: Project12,
-    title: "Weather App",
-    category: "vanilla js",
-    description: "A simple weather application using the openweather API.",
-    demo: "https://margo-mikhael.github.io/Weather-Application/",
-    code: "https://github.com/Margo-Mikhael/Weather-Application",
-    hashtags: ["JavaScript", "API"],
   },
 ];
 
