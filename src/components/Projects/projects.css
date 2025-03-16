@@ -66,9 +66,9 @@
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
-  transition: 0.3s;
   text-decoration: none;
   color: inherit;
+  transition: 0.3s;
 }
 
 .work__card:hover {
