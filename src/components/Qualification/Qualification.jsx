@@ -112,14 +112,15 @@ export default function Qualification() {
                   : "qualification__content"
               }
             >
+              {/* Web Masters */}
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">Web Masters</h3>
+                  <h3 className="qualification__title">Inklusiv</h3>
                   <span className="qualification__subtitle">
-                    Frontend Development internship
+                    Frontend Engineer <br /> Full-time
                   </span>
                   <div className="qualification__calender">
-                    <i className="uil uil-calendar-alt"></i> Jan 2025 - Present
+                    <i className="uil uil-calendar-alt"></i> Mar 2025 - Present
                   </div>
                 </div>
 
@@ -129,6 +130,7 @@ export default function Qualification() {
                 </div>
               </div>
 
+              {/* Web Masters */}
               <div className="qualification__data">
                 <div></div>
 
@@ -138,33 +140,55 @@ export default function Qualification() {
                 </div>
 
                 <div>
-                  <h3 className="qualification__title">Vodafone</h3>
+                  <h3 className="qualification__title">Web Masters</h3>
                   <span className="qualification__subtitle">
+                    Frontend Development internship
+                  </span>
+                  <div className="qualification__calender">
+                    <i className="uil uil-calendar-alt"></i>Jan 2025 - Mar 2025
+                  </div>
+                </div>
+              </div>
+
+              {/* Vodafone */}
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">Vodafone </h3>
+                  <span className="qualification__subtitle">
+                    {" "}
                     Vodanation Summer Internship
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>Jul 2023 - Aug 2023
                   </div>
                 </div>
-              </div>
-
-              <div className="qualification__data">
-                <div>
-                  <h3 className="qualification__title">
-                    Universitat Autònoma de Barcelona
-                  </h3>
-                  <span className="qualification__subtitle">
-                    {" "}
-                    Summer Training in Artificial intelligence
-                  </span>
-                  <div className="qualification__calender">
-                    <i className="uil uil-calendar-alt"></i> Sep 2022
-                  </div>
-                </div>
 
                 <div>
                   <span className="qualification__rounder"></span>
                   <span className="qualification__line"></span>
+                </div>
+              </div>
+
+              {/* Universitat Autònoma de Barcelona */}
+              <div className="qualification__data">
+                <div></div>
+
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 className="qualification__title">
+                    {" "}
+                    Universitat Autònoma de Barcelona
+                  </h3>
+                  <span className="qualification__subtitle">
+                    Summer Training in Artificial intelligence
+                  </span>
+                  <div className="qualification__calender">
+                    <i className="uil uil-calendar-alt"></i>Sep 2022 - Oct 2022
+                  </div>
                 </div>
               </div>
             </div>
