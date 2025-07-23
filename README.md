@@ -2,7 +2,7 @@
 
 A responsive portfolio website built with React.js, showcasing projects, skills, and contact info with a clean, interactive design.
 
-🧷Demo https://margo-mikhael.github.io/Margo-Mikhael-Portfolio/
+🧷Demo https://margo-mikhael-portfolio.vercel.app/
 
 ![Preview](./Preview.png)
 
